@@ -78,7 +78,7 @@ public:
         writeFormat(fs);
         fs << "name" << name_
            << "regularization" << regularizationParameter;
-           << "tpsParameters" << tpsParameters;
+        fs << "tpsParameters" << tpsParameters;
     }
 
     virtual void read(const FileNode& fn) CV_OVERRIDE
